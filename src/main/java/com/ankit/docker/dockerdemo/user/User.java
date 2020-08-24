@@ -8,8 +8,10 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/api")
 public class User {
 
+	
 	@GetMapping("/hello")
 	public String helloWorld() {
+		//Adding some comments.
 		return "Hello World";
 	}
 }
